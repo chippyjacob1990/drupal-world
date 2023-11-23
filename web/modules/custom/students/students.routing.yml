@@ -1,0 +1,7 @@
+students.get_form:
+  path: '/students/booking-projector'
+  defaults:
+    _title: 'Book projector'
+    _controller: '\Drupal\students\Controller\StudentsController::build'
+  requirements:
+    _permission: 'access content'
