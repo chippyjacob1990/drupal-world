@@ -7,7 +7,7 @@ use Drush\Commands\DrushCommands;
 /**
  * A Drush commandfile.
  *
- * In addition to this file, you need aa drush.services.yml
+ * In addition to this file, you a need aa drush.services.yml
  * in root of your module, and a composer.json file that provides the name
  * of the services file to use.
  */
