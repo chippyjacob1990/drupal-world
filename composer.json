@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/admin_toolbar": "^3.4",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
@@ -89,7 +90,12 @@
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
             ]
-        }
+        },
+        "patches": {
+            "drupal/admin_toolbar": {
+                "#3397570-patch2.patch Fix some issues": "https://www.drupal.org/files/issues/2023-11-07/admin_toolbar-3397570-patch2.patch"
+            }
+          }
     },
     "require-dev": {
         "drush/drush": "^11.6"
